@@ -6,7 +6,7 @@
   "scripts": {
     "vite": "vite",
     "dev": "vite",
-    "start": "vite",
+    "start": "vite --port 8080",
     "heroku-postbuild": "npm run build",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
